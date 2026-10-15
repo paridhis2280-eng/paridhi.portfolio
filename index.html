@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Paridhi Sharma - 1st Year B.Tech CSE Student at JECRC University, Jaipur. Proficient in C Programming, Computational Problem Solving, and Software Development.">
+  <meta name="keywords" content="Paridhi Sharma, Portfolio, JECRC University, BTech CSE, C Programming, Student Portfolio, Jaipur">
+  <meta name="author" content="Paridhi Sharma">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Paridhi Sharma | B.Tech CSE Student & C Programmer">
+  <meta property="og:description" content="Explore Paridhi Sharma's portfolio - 1st Year B.Tech CSE student at JECRC University, Jaipur, specializing in C Programming and Software Engineering fundamentals.">
+  <meta property="og:type" content="website">
+
+  <title>Paridhi Sharma | B.Tech CSE Student & C Programmer | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Ambient Glow & Grid -->
+  <div class="bg-ambient-wrapper">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+  </div>
+  <div class="grid-overlay"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Paridhi Sharma Home">
+        <div class="logo-icon">&lt;P/&gt;</div>
+        <div class="logo-text">Paridhi<span>.dev</span></div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action items -->
+      <div class="nav-actions">
+        <!-- Theme Switcher -->
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Color Theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+
+        <!-- Download Resume Button in Header -->
+        <a href="resume.html" target="_blank" class="btn btn-primary btn-sm btn-glow-pulse" id="nav-resume-btn">
+          <i class="fa-solid fa-download"></i>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle Mobile Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- ==========================================================================
+         Hero Section
+         ========================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Column: Copy & CTAs -->
+          <div class="hero-content">
+            <div class="badge badge-status">
+              <span class="status-dot"></span>
+              <span>Available for Collaborations & Opportunities</span>
+            </div>
+
+            <div class="hero-greeting">
+              <span>👋 Welcome to my digital portfolio</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <br>
+              <span class="gradient-text">Paridhi Sharma</span>
+            </h1>
+
+            <!-- Dynamic Typed Subtitle -->
+            <div class="typed-wrapper">
+              <span id="typed-text" class="typed-text"></span>
+              <span class="typed-cursor"></span>
+            </div>
+
+            <div class="hero-university-chip">
+              <span class="uni-icon">🎓</span>
+              <span>First-Year B.Tech CSE Student @ <strong>JECRC University, Jaipur</strong></span>
+            </div>
+
+            <p class="hero-description">
+              Passionate Computer Science undergraduate driven by curiosity for low-level systems, algorithmic logic, and software creation. Specializing in <strong>C Programming</strong>, computational problem-solving, and building robust foundations for modern software engineering.
+            </p>
+
+            <!-- Hero CTAs -->
+            <div class="hero-cta-group">
+              <!-- Primary Resume Download Button -->
+              <a href="resume.html" target="_blank" class="btn btn-primary" id="hero-resume-btn">
+                <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+              </a>
+
+              <a href="#contact" class="btn btn-secondary">
+                <i class="fa-solid fa-paper-plane"></i> Get In Touch
+              </a>
+
+              <button class="btn btn-outline open-resume-modal">
+                <i class="fa-solid fa-eye"></i> Quick CV Preview
+              </button>
+            </div>
+
+            <!-- Social Links & Email Preview -->
+            <div class="hero-social-links">
+              <a href="mailto:paridhis2280@gmail.com" class="social-btn" title="Email: paridhis2280@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="Coding Profiles">
+                <i class="fa-solid fa-code"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Avatar & Floating Badges -->
+          <div class="hero-visual">
+            <div class="avatar-frame-outer">
+              <div class="avatar-frame-inner">
+                <img src="assets/images/avatar.jpg" alt="Paridhi Sharma - 3D Tech Avatar" class="avatar-img" id="hero-avatar">
+              </div>
+            </div>
+
+            <!-- Floating Chip 1: C Language Core -->
+            <div class="floating-chip floating-chip-1">
+              <div class="chip-icon c-lang">&lt;C&gt;</div>
+              <div class="chip-text">
+                <h5>C Language Specialist</h5>
+                <p>Pointers, Structs & Memory</p>
+              </div>
+            </div>
+
+            <!-- Floating Chip 2: JECRC University -->
+            <div class="floating-chip floating-chip-2">
+              <div class="chip-icon">🏛️</div>
+              <div class="chip-text">
+                <h5>JECRC University</h5>
+                <p>B.Tech CSE '29 • Jaipur</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         About Section
+         ========================================================================== -->
+    <section id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">01. Who I Am</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">
+            An ambitious engineer in the making, exploring how computers think and building a rock-solid foundation from silicon up.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Left: Narrative & Personal Card -->
+          <div class="glass-card about-bio-card">
+            <h3 style="font-size: 1.55rem; color: var(--text-main);">
+              Engineering with Passion & Precision
+            </h3>
+
+            <p class="about-intro-text">
+              Hello! My name is <strong>Paridhi Sharma</strong>. I am currently in my <strong>first year of B.Tech in Computer Science and Engineering</strong> at <strong>JECRC University, Jaipur</strong>.
+            </p>
+
+            <div class="about-highlight-quote">
+              "Understanding how hardware communicates with code begins with mastering the C programming language — where every byte and pointer tells a story."
+            </div>
+
+            <p class="about-intro-text">
+              My computing journey is grounded in disciplined problem-solving. While many jump directly into high-level abstractions, I believe in understanding the fundamentals: memory allocation, algorithmic complexity, data structures, and computer architecture. C has been my vehicle for sharpening analytical logic and mastering precision engineering.
+            </p>
+
+            <!-- Quick Details Grid -->
+            <div class="about-details-grid">
+              <div class="about-detail-item">
+                <span class="about-detail-icon"><i class="fa-solid fa-user-graduate"></i></span>
+                <div class="about-detail-info">
+                  <small>Education</small>
+                  <strong>B.Tech CSE (1st Year)</strong>
+                </div>
+              </div>
+
+              <div class="about-detail-item">
+                <span class="about-detail-icon"><i class="fa-solid fa-university"></i></span>
+                <div class="about-detail-info">
+                  <small>Institution</small>
+                  <strong>JECRC University, Jaipur</strong>
+                </div>
+              </div>
+
+              <div class="about-detail-item">
+                <span class="about-detail-icon"><i class="fa-solid fa-code"></i></span>
+                <div class="about-detail-info">
+                  <small>Core Skill</small>
+                  <strong>C Programming Language</strong>
+                </div>
+              </div>
+
+              <div class="about-detail-item">
+                <span class="about-detail-icon"><i class="fa-solid fa-location-dot"></i></span>
+                <div class="about-detail-info">
+                  <small>Location</small>
+                  <strong>Jaipur, Rajasthan, India</strong>
+                </div>
+              </div>
+            </div>
+
+            <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:0.5rem;">
+              <a href="mailto:paridhis2280@gmail.com" class="btn btn-secondary btn-sm">
+                <i class="fa-solid fa-envelope"></i> paridhis2280@gmail.com
+              </a>
+              <button class="btn btn-outline btn-sm copy-email-btn">
+                <i class="fa-regular fa-copy"></i> Copy Email
+              </button>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Live C Terminal Simulation -->
+          <div>
+            <div class="terminal-window">
+              <div class="terminal-header">
+                <div class="terminal-controls">
+                  <span class="terminal-btn btn-close"></span>
+                  <span class="terminal-btn btn-min"></span>
+                  <span class="terminal-btn btn-max"></span>
+                </div>
+                <div class="terminal-title">
+                  <i class="fa-solid fa-file-code"></i> paridhi_intro.c
+                </div>
+                <button id="run-c-code-btn" class="terminal-action-btn">
+                  <i class="fa-solid fa-play"></i> Run Code
+                </button>
+              </div>
+
+              <div class="terminal-body">
+                <pre><code><span class="c-inc">#include</span> <span class="c-str">&lt;stdio.h&gt;</span>
+<span class="c-inc">#include</span> <span class="c-str">&lt;stdlib.h&gt;</span>
+
+<span class="c-cm">/* Paridhi Sharma - B.Tech CSE @ JECRC University */</span>
+<span class="c-kw">int</span> <span class="c-fn">main</span>(<span class="c-kw">void</span>) {
+    <span class="c-kw">const</span> <span class="c-kw">char</span> *name = <span class="c-str">"Paridhi Sharma"</span>;
+    <span class="c-kw">const</span> <span class="c-kw">char</span> *univ = <span class="c-str">"JECRC University, Jaipur"</span>;
+    <span class="c-kw">int</span> year = <span class="c-num">1</span>;
+
+    <span class="c-fn">printf</span>(<span class="c-str">"Hello, World! 👋\n"</span>);
+    <span class="c-fn">printf</span>(<span class="c-str">"Name: %s\n"</span>, name);
+    <span class="c-fn">printf</span>(<span class="c-str">"Degree: B.Tech CSE (Year %d)\n"</span>, year);
+    <span class="c-fn">printf</span>(<span class="c-str">"College: %s\n"</span>, univ);
+    <span class="c-fn">printf</span>(<span class="c-str">"Core Expertise: C Language & Algorithms\n"</span>);
+
+    <span class="c-kw">return</span> <span class="c-num">0</span>;
+}</code></pre>
+
+                <!-- Simulated execution output -->
+                <div class="terminal-console-output" id="terminal-output">
+                  <span style="color:#94a3b8;">// Click "Run Code" above to compile & execute with GCC!</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fast Stat Cards under terminal -->
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1.5rem;">
+              <div class="glass-card" style="padding: 1.2rem; text-align: center;">
+                <div style="font-size: 2rem; font-weight: 800; color: var(--accent-cyan); font-family: var(--font-heading);">50+</div>
+                <div style="font-size: 0.85rem; color: var(--text-muted);">C Problems Solved</div>
+              </div>
+              <div class="glass-card" style="padding: 1.2rem; text-align: center;">
+                <div style="font-size: 2rem; font-weight: 800; color: var(--accent-purple); font-family: var(--font-heading);">100%</div>
+                <div style="font-size: 0.85rem; color: var(--text-muted);">Dedication & Curiosity</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Skills Section
+         ========================================================================== -->
+    <section id="skills" style="background: rgba(13, 18, 36, 0.35);">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">02. Technical Arsenal</span>
+          <h2 class="section-title">Skills & <span class="gradient-text">Proficiencies</span></h2>
+          <p class="section-subtitle">
+            A comprehensive breakdown of technical competencies, starting from low-level C programming fundamentals to modern software tooling.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="skills-tabs-nav">
+          <button class="skill-tab-btn active" data-filter="all">All Skills</button>
+          <button class="skill-tab-btn" data-filter="core">C & Core Programming</button>
+          <button class="skill-tab-btn" data-filter="web">Web & Frontend</button>
+          <button class="skill-tab-btn" data-filter="tools">Tools & Environments</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skills-grid">
+          
+          <!-- Skill Card 1: C Programming Language (Featured) -->
+          <div class="glass-card skill-card" data-category="core">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper skill-icon-c">
+                <span>&lt;C&gt;</span>
+              </div>
+              <span class="skill-badge-level">Primary Language</span>
+            </div>
+
+            <div class="skill-info">
+              <h3>C Programming Language</h3>
+              <p>Strong command of syntax, memory management, pointers, and structures for high-performance computing.</p>
+            </div>
+
+            <div class="skill-progress-box">
+              <div class="skill-progress-header">
+                <span>Proficiency & Concepts</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="88%"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Pointers</span>
+              <span class="skill-tag">Dynamic Memory (malloc/free)</span>
+              <span class="skill-tag">Structs & Unions</span>
+              <span class="skill-tag">File Handling</span>
+              <span class="skill-tag">Arrays & Strings</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 2: Computational Logic & Problem Solving -->
+          <div class="glass-card skill-card" data-category="core">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper skill-icon-ds">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <span class="skill-badge-level">Problem Solving</span>
+            </div>
+
+            <div class="skill-info">
+              <h3>Logic Building & Algorithms</h3>
+              <p>Developing step-by-step algorithmic solutions, flowcharts, recursion, and mathematical modeling in C.</p>
+            </div>
+
+            <div class="skill-progress-box">
+              <div class="skill-progress-header">
+                <span>Problem Solving Skills</span>
+                <span>82%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="82%"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Pattern Printing</span>
+              <span class="skill-tag">Searching Algorithms</span>
+              <span class="skill-tag">Sorting Techniques</span>
+              <span class="skill-tag">Recursion</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 3: Foundational Data Structures -->
+          <div class="glass-card skill-card" data-category="core">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper skill-icon-c">
+                <i class="fa-solid fa-diagram-project"></i>
+              </div>
+              <span class="skill-badge-level">Foundational</span>
+            </div>
+
+            <div class="skill-info">
+              <h3>Data Structures Basics</h3>
+              <p>Implementing linear data structures from scratch in C, understanding pointer traversal and nodes.</p>
+            </div>
+
+            <div class="skill-progress-box">
+              <div class="skill-progress-header">
+                <span>Implementation Ability</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="75%"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">1D & 2D Arrays</span>
+              <span class="skill-tag">Singly Linked Lists</span>
+              <span class="skill-tag">Stack Basics</span>
+              <span class="skill-tag">Queue Concepts</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 4: HTML5 & Semantic Web -->
+          <div class="glass-card skill-card" data-category="web">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper skill-icon-web">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <span class="skill-badge-level">Frontend</span>
+            </div>
+
+            <div class="skill-info">
+              <h3>HTML5 Semantic Architecture</h3>
+              <p>Crafting accessible, SEO-compliant, and well-structured web documents.</p>
+            </div>
+
+            <div class="skill-progress-box">
+              <div class="skill-progress-header">
+                <span>Structure & Semantics</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="85%"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Semantic Tags</span>
+              <span class="skill-tag">Accessibility (a11y)</span>
+              <span class="skill-tag">Forms & Validation</span>
+              <span class="skill-tag">SEO Best Practices</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 5: CSS3 & Modern Styling -->
+          <div class="glass-card skill-card" data-category="web">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper skill-icon-web">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <span class="skill-badge-level">Frontend</span>
+            </div>
+
+            <div class="skill-info">
+              <h3>CSS3 & Modern Design Systems</h3>
+              <p>Building responsive layouts with Flexbox, CSS Grid, custom tokens, and glassmorphic micro-animations.</p>
+            </div>
+
+            <div class="skill-progress-box">
+              <div class="skill-progress-header">
+                <span>Layout & Styling</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">CSS Grid & Flexbox</span>
+              <span class="skill-tag">Keyframe Animations</span>
+              <span class="skill-tag">Glassmorphism</span>
+              <span class="skill-tag">Responsive Queries</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 6: Developer Tools & CLI -->
+          <div class="glass-card skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper skill-icon-tools">
+                <i class="fa-solid fa-terminal"></i>
+              </div>
+              <span class="skill-badge-level">Workflow</span>
+            </div>
+
+            <div class="skill-info">
+              <h3>Developer Tools & Version Control</h3>
+              <p>Daily workflow utilities including GCC compilers, Visual Studio Code, Git, and terminal commands.</p>
+            </div>
+
+            <div class="skill-progress-box">
+              <div class="skill-progress-header">
+                <span>Workflow Fluency</span>
+                <span>78%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="78%"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">GCC / Clang Compiler</span>
+              <span class="skill-tag">Git & GitHub</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Command Line / Bash</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- C Language Deep Dive Spotlight Card -->
+        <div class="c-deep-dive-card">
+          <div style="max-width: 650px;">
+            <span class="badge" style="background: rgba(0, 242, 254, 0.15); color: var(--accent-cyan); border-color: rgba(0, 242, 254, 0.3); margin-bottom: 0.8rem;">
+              <i class="fa-solid fa-microchip"></i> Deep Dive
+            </span>
+            <h3 style="font-size: 1.85rem; margin-bottom: 0.6rem;">My Foundation in C Programming</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">
+              C is the lingua franca of computer science. Here are the core paradigms I actively work with during my engineering coursework and personal coding exercises:
+            </p>
+          </div>
+
+          <div class="c-deep-dive-grid">
+            <div class="c-feature-item">
+              <h4><i class="fa-solid fa-memory" style="color:var(--accent-cyan);"></i> Pointers & Addresses</h4>
+              <p>Direct memory referencing, pointer arithmetic, double pointers, and referencing arrays & functions.</p>
+            </div>
+
+            <div class="c-feature-item">
+              <h4><i class="fa-solid fa-cubes" style="color:var(--accent-purple);"></i> Dynamic Memory</h4>
+              <p>Allocating and freeing heap memory using <code>malloc</code>, <code>calloc</code>, <code>realloc</code>, and avoiding leaks.</p>
+            </div>
+
+            <div class="c-feature-item">
+              <h4><i class="fa-solid fa-file-zipper" style="color:#34d399;"></i> File I/O Management</h4>
+              <p>Reading and writing text & binary files using <code>fopen</code>, <code>fread</code>, <code>fwrite</code>, and <code>fprintf</code>.</p>
+            </div>
+
+            <div class="c-feature-item">
+              <h4><i class="fa-solid fa-sitemap" style="color:#f472b6;"></i> Custom Structures</h4>
+              <p>Designing user-defined composite data types with <code>struct</code> and <code>typedef</code> for real-world entities.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Achievements & Milestones Section
+         ========================================================================== -->
+    <section id="achievements">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">03. Track Record</span>
+          <h2 class="section-title">Milestones & <span class="gradient-text">Achievements</span></h2>
+          <p class="section-subtitle">
+            Key academic milestones, technical achievements, and extracurricular milestones in my engineering journey so far.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          
+          <!-- Achievement 1 -->
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon-box icon-box-gold">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="achievement-content">
+              <h4>Admission to JECRC University, Jaipur</h4>
+              <span class="achievement-meta">B.Tech Computer Science & Engineering (Batch 2025–2029)</span>
+              <p class="achievement-desc">
+                Secured admission into one of Rajasthan's top engineering universities for Computer Science, embarking on a 4-year journey of rigorous software engineering education.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 2 -->
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon-box icon-box-cyan">
+              <i class="fa-solid fa-code-compare"></i>
+            </div>
+            <div class="achievement-content">
+              <h4>50+ C Programming Challenges Solved</h4>
+              <span class="achievement-meta">Algorithmic Problem Solving & Code Practice</span>
+              <p class="achievement-desc">
+                Completed over 50 structured logic building challenges in C covering conditional branching, nested loops, matrix manipulations, and recursive computations.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon-box icon-box-purple">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div class="achievement-content">
+              <h4>Console Software Architecture in C</h4>
+              <span class="achievement-meta">Systems & Utility Building</span>
+              <p class="achievement-desc">
+                Engineered multiple modular C programs such as a Student Management System and ATM Simulator, mastering binary file operations and pointer safety.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 4 -->
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon-box icon-box-emerald">
+              <i class="fa-solid fa-people-group"></i>
+            </div>
+            <div class="achievement-content">
+              <h4>Active Tech Community Participant</h4>
+              <span class="achievement-meta">JECRC Collegiate Tech Initiatives & Workshops</span>
+              <p class="achievement-desc">
+                Engaged member of student developer clubs and workshops, collaborating on peer programming sessions, hackathon preparation, and tech presentations.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Projects Showcase Section
+         ========================================================================== -->
+    <section id="projects" style="background: rgba(13, 18, 36, 0.35);">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">04. What I've Built</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">
+            Hands-on projects highlighting practical implementation of C programming, algorithms, and web technologies.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: Student Record Management System -->
+          <div class="glass-card project-card">
+            <div>
+              <div class="project-top">
+                <i class="fa-regular fa-folder-open project-folder-icon"></i>
+                <div class="project-links">
+                  <button class="project-link-btn open-project-modal" data-project="student-system" title="View Project Details & Code">
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3>Student Record Management System</h3>
+                <p>
+                  A robust console application in C that manages university student records with persistent binary file storage, CRUD functionality, and GPA calculation.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li>Built with dynamic C <code>struct</code> database schema</li>
+                  <li>Binary serialization with <code>fread</code> and <code>fwrite</code></li>
+                  <li>Fast search, update, and deletion by Roll Number</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="project-tech-tag">C Language</span>
+              <span class="project-tech-tag">File Handling</span>
+              <span class="project-tech-tag">Structures</span>
+              <span class="project-tech-tag">CRUD</span>
+            </div>
+          </div>
+
+          <!-- Project 2: Terminal Tic-Tac-Toe -->
+          <div class="glass-card project-card">
+            <div>
+              <div class="project-top">
+                <i class="fa-solid fa-gamepad project-folder-icon" style="color:var(--accent-purple);"></i>
+                <div class="project-links">
+                  <button class="project-link-btn open-project-modal" data-project="tic-tac-toe" title="View Project Details & Code">
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3>Terminal Tic-Tac-Toe & Game Engine</h3>
+                <p>
+                  Interactive command-line Tic-Tac-Toe featuring 2-player local play and smart computer moves using 2D array matrix evaluation and win detection.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li>3x3 matrix board rendering with ASCII art</li>
+                  <li>Instant win-state and draw validation algorithms</li>
+                  <li>Move validation preventing overwriting chosen cells</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="project-tech-tag">C Language</span>
+              <span class="project-tech-tag">2D Arrays</span>
+              <span class="project-tech-tag">Game Logic</span>
+              <span class="project-tech-tag">CLI</span>
+            </div>
+          </div>
+
+          <!-- Project 3: Bank Account Simulation Console -->
+          <div class="glass-card project-card">
+            <div>
+              <div class="project-top">
+                <i class="fa-solid fa-vault project-folder-icon" style="color:#34d399;"></i>
+                <div class="project-links">
+                  <button class="project-link-btn open-project-modal" data-project="bank-simulator" title="View Project Details & Code">
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3>ATM & Banking Simulation Console</h3>
+                <p>
+                  A simulated ATM terminal system with user PIN authentication, balance inquiries, deposit and withdrawal validation, and audit file logging.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li>Secure credential check with attempt throttling</li>
+                  <li>Transaction history logging to external files</li>
+                  <li>Safeguards against negative amounts & overdrawing</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="project-tech-tag">C Language</span>
+              <span class="project-tech-tag">File Logging</span>
+              <span class="project-tech-tag">Security Logic</span>
+              <span class="project-tech-tag">Pointers</span>
+            </div>
+          </div>
+
+          <!-- Project 4: Modern Portfolio Website -->
+          <div class="glass-card project-card">
+            <div>
+              <div class="project-top">
+                <i class="fa-solid fa-laptop-code project-folder-icon" style="color:#ec4899;"></i>
+                <div class="project-links">
+                  <button class="project-link-btn open-project-modal" data-project="portfolio-web" title="View Project Details & Code">
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3>Personal Developer Portfolio</h3>
+                <p>
+                  High-performance web portfolio built with pure HTML, modern CSS tokens, glassmorphism, dynamic C terminal runner, and ATS-ready resume engine.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li>Zero bloated frameworks: pure HTML, CSS & Vanilla JS</li>
+                  <li>Live simulated C code execution terminal</li>
+                  <li>Print-ready ATS resume generator and dark/light themes</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="project-tech-tag">HTML5</span>
+              <span class="project-tech-tag">Vanilla CSS</span>
+              <span class="project-tech-tag">JavaScript</span>
+              <span class="project-tech-tag">UI/UX</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Resume Download Banner Section
+         ========================================================================== -->
+    <section id="resume" style="padding: 4rem 0;">
+      <div class="container">
+        
+        <div class="resume-banner-card">
+          <div class="resume-banner-text">
+            <span class="badge" style="background: rgba(0, 242, 254, 0.2); color: var(--accent-cyan); margin-bottom: 0.8rem;">
+              <i class="fa-solid fa-file-pdf"></i> Curriculum Vitae
+            </span>
+            <h3>Looking for My Complete Resume?</h3>
+            <p>
+              Download my official, ATS-friendly resume detailing my coursework at JECRC University, C programming competencies, academic history, and projects.
+            </p>
+          </div>
+
+          <div class="resume-banner-actions">
+            <!-- Download Button -->
+            <a href="resume.html" target="_blank" class="btn btn-primary" id="banner-download-resume">
+              <i class="fa-solid fa-download"></i> Download / Print Resume
+            </a>
+            <button class="btn btn-secondary open-resume-modal">
+              <i class="fa-solid fa-eye"></i> Quick In-Page Preview
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Contact Info & Connect Section
+         ========================================================================== -->
+    <section id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">05. Connect</span>
+          <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">
+            Whether you want to discuss C programming, academic collaborations, internships, or just say hello — my inbox is always open!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Direct Details -->
+          <div class="glass-card contact-info-card">
+            <div>
+              <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Let's Start a Conversation</h3>
+              <p style="color: var(--text-muted); font-size: 0.95rem;">
+                I am actively seeking technical mentorship, study groups, hackathon teammates, and prospective internship opportunities in software engineering.
+              </p>
+            </div>
+
+            <div class="contact-direct-items">
+              
+              <!-- Direct Email Item -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact-item-info">
+                  <small>Email Address</small>
+                  <strong>paridhis2280@gmail.com</strong>
+                </div>
+                <button class="copy-email-btn" title="Copy to clipboard">
+                  <i class="fa-regular fa-copy"></i> Copy
+                </button>
+              </div>
+
+              <!-- University & City -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="contact-item-info">
+                  <small>Location & Campus</small>
+                  <strong>JECRC University, Jaipur, Rajasthan, India</strong>
+                </div>
+              </div>
+
+              <!-- Availability -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <i class="fa-solid fa-clock"></i>
+                </div>
+                <div class="contact-item-info">
+                  <small>Response Time</small>
+                  <strong>Prompt responses within 24 hours</strong>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Social Links -->
+            <div>
+              <h4 style="font-size: 1.05rem; margin-bottom: 0.8rem; color: var(--text-main);">
+                Connect Online
+              </h4>
+              <div class="hero-social-links" style="margin-top: 0;">
+                <a href="mailto:paridhis2280@gmail.com" class="social-btn" title="Send Direct Mail">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="Twitter / X">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Interactive Form -->
+          <div class="glass-card">
+            <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Send a Message</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
+              Fill in your details below to reach out directly to Paridhi Sharma:
+            </p>
+
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Your Name *</label>
+                  <input type="text" id="contact-name" class="form-input" placeholder="e.g. Alex Johnson" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Your Email *</label>
+                  <input type="email" id="contact-email" class="form-input" placeholder="alex@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" class="form-input" placeholder="Discussion on C Project / Collaboration">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message *</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Hello Paridhi, I saw your portfolio and would like to connect regarding..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="contact-submit-btn" style="width: 100%;">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#home" class="brand-logo">
+          <div class="logo-icon">&lt;P/&gt;</div>
+          <div class="logo-text">Paridhi<span>.dev</span></div>
+        </a>
+
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="resume.html" target="_blank">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="current-year">2026</span> <strong>Paridhi Sharma</strong>. 1st Year B.Tech CSE, JECRC University, Jaipur.
+        </p>
+        <p>
+          Direct Contact: <a href="mailto:paridhis2280@gmail.com" style="color:var(--accent-cyan);">paridhis2280@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Universal Modal Overlay -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 id="modal-title">Project Details</h3>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
